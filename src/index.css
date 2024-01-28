@@ -1,0 +1,207 @@
+/* sigin */
+
+.signin{
+    margin: 100px;
+    height: auto;
+    width:55%;
+   }
+
+.form{
+    background-color:rgba(240, 244, 255, 0.645);
+    padding: 40px 90px 40px 110px;
+    color:black;
+    width:70%;
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 300px;
+    border-radius:35px;
+    box-shadow: 10px 25px 8px rgba(59, 62, 62, 0.392) ;
+}
+
+.form input{
+   width:95%;
+   font-size: 18px;
+}
+
+.form h1{
+    text-align: center;
+   font-weight: 500;
+   text-decoration:underline;
+}
+
+.form button{
+  margin-left: 100px;
+  font-size: 20px;
+  background: gray;
+  transition: all 1s;    
+}
+
+.form button:hover{
+    background-color: gray;
+    
+}
+
+
+.form Label{
+ font-size: 20px;
+ font-weight: 700px;
+ text-decoration: underline;
+}
+
+/* signup*/
+
+.signup{
+    margin: 20px 60px;
+    height: auto;
+    width: 55%;
+}
+
+/* receipelist */
+
+.receipelist{
+    margin: 10px 50px;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+}
+
+.receipelist h2{
+    font-size: 30px;
+   text-align: center;
+   font-weight: 600;
+   }
+
+
+
+   /* ReceipeCard */
+
+   .card-style{
+    margin: 20px;
+   
+   }
+
+ .cardtext-style{
+    font-size: 20px;
+ }
+.cardtitle{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-variant:small-caps;
+   text-decoration: underline;
+}
+
+
+/*Add Receipes */
+
+.addreceipes{
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+.back{
+   margin: 20px; 
+   }
+
+.addreceipes label{
+    margin-left: 50px;
+}
+.addreceipes h5{
+    text-align: center;
+    margin: 35px ;
+    font-weight: 600;
+    font-size: 28px;
+}
+.addreceipes input {
+    font-size: 20px;
+}
+.addreceipes textarea{
+    font-size: 20px;
+}
+
+.addreceipes .button3 {
+ font-size: 20px;
+ margin-left: 600px;
+}
+
+/* Editreceipe */
+.loading{
+    text-align: center;
+    font-size: 28px;
+    margin: 100px;
+}
+
+.editreceipes {
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.back {
+    margin: 20px;
+}
+
+.editreceipes label {
+    margin-left: 50px;
+}
+.editreceipes input{
+    font-size: 20px;
+}
+.editreceipes h5 {
+    text-align: center;
+    margin: 35px;
+    font-weight: 600;
+    font-size: 28px;
+}
+.editreceipes textarea {
+    font-size: 20px;
+}
+
+.editreceipes .button3 {
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+/* navbar */
+
+.titlebar{
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px;
+   background: whitesmoke;
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+}
+
+.titleitems{
+    font-weight: 500;
+    
+}
+
+.title{
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+/* home */
+.home{
+    margin:160px 450px;
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    font-style: italic;
+   font-weight: 700;
+  font-variant: small-caps;
+  text-align: center;
+   text-shadow: 1px 2px 8px;
+ padding: 50px 20px;
+}
+
+ p{
+ font-size:20px;
+ font-weight: 300;
+ padding: 5px;
+}
