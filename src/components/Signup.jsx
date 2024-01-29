@@ -24,7 +24,7 @@ let navigate = useNavigate()
             if(res.status===200)
             {
                 toast.success(res.data.message)
-                navigate('/signin')
+                navigate('/')
             }
         } catch (error) {
             toast.error(error.response.data.error || error.response.data.message)
